@@ -12,9 +12,6 @@ function addPerson(person) {
 }
 
 function getPersons() {
-  console.log('PERSONS NEEDED');
-  console.log(persons);
-
   return persons;
 }
 

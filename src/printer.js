@@ -12,6 +12,8 @@ function showMsg(msg) {
 function showListWithProperty(propName) {
 
   var persons = personControllerModule.getPersons();
+
+  console.log('**********' + persons.length);
   
   if (persons.length <= 0) return;
 
